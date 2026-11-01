@@ -1,25 +1,25 @@
 class Specfork < Formula
   desc "Find, compose and build from app specs"
   homepage "https://specfork.dev"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Specfork/specfork/releases/download/v0.1.1/specfork_darwin_arm64.tar.gz"
-      sha256 "5821911d82754bda70d3ead9f1e5d797bdb96ecea164e86230fffa62e2d64e4b"
+      url "https://github.com/Specfork/specfork/releases/download/v0.1.2/specfork_darwin_arm64.tar.gz"
+      sha256 "22d8019272f6b980695e8e49216b6c10570d9b6a0474b3683119283f53d54f4f"
     else
-      url "https://github.com/Specfork/specfork/releases/download/v0.1.1/specfork_darwin_amd64.tar.gz"
-      sha256 "4b7fc723382525ed97b6b53fcfc9e37a7436e1f35a14d096e74830395152e860"
+      url "https://github.com/Specfork/specfork/releases/download/v0.1.2/specfork_darwin_amd64.tar.gz"
+      sha256 "a890d79c99759daa757c9daaba752dfce1a5207651cfe942ffad630ccc7fc2c0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Specfork/specfork/releases/download/v0.1.1/specfork_linux_arm64.tar.gz"
-      sha256 "646c5aa4429eee03d0c2e166db25f97bb1e2ca129e88f03a4789116a723a205b"
+      url "https://github.com/Specfork/specfork/releases/download/v0.1.2/specfork_linux_arm64.tar.gz"
+      sha256 "8a4003a9425de3a78adbf0c99fb4d4042c781847ca3c50ca882a1c7571ea66ca"
     else
-      url "https://github.com/Specfork/specfork/releases/download/v0.1.1/specfork_linux_amd64.tar.gz"
-      sha256 "158b299c5b2e28950f56392d577c72aebfb6ba4e7d0f8256a8bd615345451a10"
+      url "https://github.com/Specfork/specfork/releases/download/v0.1.2/specfork_linux_amd64.tar.gz"
+      sha256 "93ba694b13e71c2d9e2d8a3bbb7af18b47de29798dd730ffe9440983773ae477"
     end
   end
 
